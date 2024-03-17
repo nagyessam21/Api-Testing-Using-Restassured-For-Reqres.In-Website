@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Api Testing For Reqres" verbose="1">
+    <test name="Testing">
+        <classes>
+            <class name="users.ListUsersTestCases"/>
+            <class name="resources.ListResourcesTestCases"></class>
+            <class name="createusers.CreateUserTestCases"></class>
+            <class name="updateuser.UpdateUserTestCases"></class>
+            <class name="registertestcases.RegisterTestCases"></class>
+            <class name="logintestcases.LoginTestCases"></class>
+        </classes>
+    </test>
+</suite>
